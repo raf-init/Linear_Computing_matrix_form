@@ -114,7 +114,7 @@ public class main {
 		while((line = br.readLine()) != null)
 			{	
 			
-			//finding the right inputed constraints
+			//finding the right inputted constraints
 			
 				Scanner st = new Scanner(line);
 				if(line.matches("xi>=0 i= (.*)"))
@@ -175,7 +175,7 @@ public class main {
 				}
 			
 			
-			//finding wrong inputed characters like: '";*& etc.
+			//finding wrong inputted characters like: '";*& etc.
 			Scanner t = new Scanner(line);
 			while(t.hasNext())
 			{
@@ -492,7 +492,7 @@ public class main {
 		}
 	}
 	
-		//elegxos gia lathasmeno isagomeno arxio kimenou, tiposi C table
+		//check for wrong input.txt, print C table
 	try
 	{
 	    PrintWriter pr = new PrintWriter("output.txt");
