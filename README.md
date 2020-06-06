@@ -2,7 +2,9 @@
 This algorithm was created in order to convert a linear program (imported in a specific form) to the following form:
 
 max/min c^Tx
+
 subject to Ax <=,>= or = b
+
 and x>=0
 
 The final form will be used to create its dual linear program in another algorithm.
