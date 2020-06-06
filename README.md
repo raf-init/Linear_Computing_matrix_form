@@ -39,8 +39,8 @@ xi>=0 i= 1 2 3
 Important note #2:
 
 For the legitimacy of the code, the list of the following unexpected actions were considered:
- - Placing something not like x(pointer), number, (+,-), min or max on the first line
- - Placing <=, =, >= two times and/or on the same line
+ - Placing something not like x(pointer), number, (+,-), min or max in the first line
+ - Placing <=, =, >= two times and/or in the same line
  - Not using space in cases such as <=3 (correct form: <= 3)
  - Using the same variable twice
  - Errors like 2x2 instead of 2 x2
