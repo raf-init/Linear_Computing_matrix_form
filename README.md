@@ -28,21 +28,23 @@ max 1 x1 + 3 x2 + 5 x4 + 18 x5
 
 xi>=0 i= 1 2 4 5
 
-**Important note #1:
-In case of an x variable missing a coefficient, the user can either use the number zero or just ignore it.
-In case of an x variable having the coefficient 1, the number 1 must not be skipped. 
-The user doesn't have to enter the x variables in order. 
-The constraints have to follow this pattern:
+Important note #1:
+- In case of an x variable missing a coefficient, the user can either use the number zero or just ignore it.
+- In case of an x variable having the coefficient 1, the number 1 must not be skipped. 
+- The user doesn't have to enter the x variables in order. 
+- The constraints have to follow this pattern:
+
 xi>=0 i= 1 2 3
 
-**Important note #2:
+Important note #2:
+
 For the legitimacy of the code, the list of the following unexpected actions were considered:
- Placing something not like x(pointer), number, (+,-), min or max on the first line
- Placing <=, =, >= two times and/or on the same line
- Not using space in cases such as <=3 (correct form: <= 3)
- Using the same variable twice
- Errors like 2x2 instead of 2 x2
- Errors like 2 + 2 + 1 x1
- Missing a coefficient from a variable
- Errors like + + 3 x1
+ - Placing something not like x(pointer), number, (+,-), min or max on the first line
+ - Placing <=, =, >= two times and/or on the same line
+ - Not using space in cases such as <=3 (correct form: <= 3)
+ - Using the same variable twice
+ - Errors like 2x2 instead of 2 x2
+ - Errors like 2 + 2 + 1 x1
+ - Missing a coefficient from a variable
+ - Errors like + + 3 x1
 
