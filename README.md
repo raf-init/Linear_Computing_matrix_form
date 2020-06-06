@@ -19,9 +19,13 @@ Steps followed:
 Form of the imported linear program:
 
 max 1 x1 + 3 x2 + 5 x4 + 18 x5
+
 4 x1 + 7 x2  + 0 x4 <= 0
+
 5 x1 + 12 x2 + 1 x4 + 10 x5 >= -100
+
 - 19 x1 + 100 x4 - 15 x5 = 12
+
 xi>=0 i= 1 2 4 5
 
 **Important note #1:
