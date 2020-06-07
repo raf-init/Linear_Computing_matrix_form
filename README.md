@@ -3,7 +3,7 @@ This algorithm was created in order to convert a linear program (imported in a s
 
 max/min c^Tx
 
-subject to Ax <=,>= or = b
+subject to Ax ⊕ b
 
 and x>=0
 
