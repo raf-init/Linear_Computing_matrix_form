@@ -1,4 +1,4 @@
-# LinearComputing_matrix_form
+# Linear_Computing_matrix_form
 This algorithm was created in order to convert a linear program (imported in a specific form) to the following form:
 
 max/min c^Tx
